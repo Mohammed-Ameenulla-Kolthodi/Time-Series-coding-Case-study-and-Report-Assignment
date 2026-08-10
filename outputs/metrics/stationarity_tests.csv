@@ -1,0 +1,7 @@
+test,series,statistic,p_value,used_lag,n_obs,is_stationary_5pct
+ADF,Appliances (level),-8.948888280256929,8.833753129592419e-15,29.0,3260.0,True
+KPSS,Appliances (level),0.038398792999091706,0.1,,,True
+ADF,Appliances (1st difference),-16.952574397051105,9.437199196916531e-30,29.0,3259.0,True
+KPSS,Appliances (1st difference),0.07832177299842147,0.1,,,True
+ADF,Appliances (1st diff + seasonal diff-24),-18.154422504159673,2.47091642701982e-30,29.0,3235.0,True
+KPSS,Appliances (1st diff + seasonal diff-24),0.08083748665992933,0.1,,,True
