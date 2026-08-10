@@ -1,0 +1,16 @@
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn
+statsmodels
+xgboost
+pytest
+
+# Optional: real zero-shot foundation-model forecasting (Part 7).
+# Requires internet access to huggingface.co to download model weights.
+# If unavailable, the pipeline automatically falls back to Holt-Winters
+# exponential smoothing and prints a warning (see forecast_foundation_model
+# in run_pipeline.py).
+# chronos-forecasting
+# torch
